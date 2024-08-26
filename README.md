@@ -30,7 +30,9 @@ Headlines will be used to construct the title. This way you can organize your bo
 
 This would end up in the following list in Alfred:
 
-# Work/My company
-# Work/Duck Duck go
-# Hobbies/Canoeing/Lettmann Canoes
-# Hobbies/Base Jumping/Base Jumping
+```
+Work/My company
+Work/Duck Duck go
+Hobbies/Canoeing/Lettmann Canoes
+Hobbies/Base Jumping/Base Jumping
+```

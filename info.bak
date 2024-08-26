@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>de.gemeinsam-gestalten.md-bookmarks</string>
+	<key>connections</key>
+	<dict>
+		<key>86C5E40B-3202-4BF0-BBF5-5620429C9D22</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>59E7C2ED-97D9-4A62-A87A-66CBD08BC334</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F0106A5E-0A3E-4795-8543-DEC6FE013166</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>86C5E40B-3202-4BF0-BBF5-5620429C9D22</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kevin Löhmann</string>
+	<key>description</key>
+	<string>Open Bookmarks from md file</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Markdown Bookmarks</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>59E7C2ED-97D9-4A62-A87A-66CBD08BC334</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>1</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>bookmark</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>PATH=/usr/local/bin:/opt/homebrew/bin:$PATH
+
+python3 list_bookmarks.py</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Open bookmark in default browser</string>
+				<key>title</key>
+				<string>Search bookmark</string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>86C5E40B-3202-4BF0-BBF5-5620429C9D22</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>11</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>B</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>F0106A5E-0A3E-4795-8543-DEC6FE013166</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow allow you to manage your bookmarks independent of your browser in an markdown file.
+
+Store your bookmarks as links in an markdown file and use as many heading levels as you like.
+
+Links will be opened in your default browser.
+
+Bookmark image by Lorc (https://lorcblog.blogspot.com/) from: https://game-icons.net/1x1/lorc/bookmarklet.html</string>
+	<key>uidata</key>
+	<dict>
+		<key>59E7C2ED-97D9-4A62-A87A-66CBD08BC334</key>
+		<dict>
+			<key>xpos</key>
+			<real>605</real>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>86C5E40B-3202-4BF0-BBF5-5620429C9D22</key>
+		<dict>
+			<key>xpos</key>
+			<real>355</real>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>F0106A5E-0A3E-4795-8543-DEC6FE013166</key>
+		<dict>
+			<key>xpos</key>
+			<real>110</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string>Select file containing your bookmarks</string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Bookmark file</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>bookmarksfile</string>
+		</dict>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
